@@ -1,0 +1,29 @@
+# CS766_Proj
+
+Our `CS766: Computer Vision` course project.
+
+
+
+
+
+
+# Domain Adaptation Methods - CCSA
+CCSA is a combination of classification and contrastive semantic alignment loss
+
+The approach of this method is aligning the distribution of source and target data distribution.
+The training process generates weights making the distance of data with same label small and different label large.
+In our scenario, the source and target refer to images in major and minor domains.
+
+Given both source and target have labels, CCSA is a supervised learning method.
+
+Function g and h denotes encoder and classifier, the distribution of data is computed with the encoded feature space of each image
+![Alt text](wiki_imgs/CCSA_overview.PNG?raw=true "Loss Function")
+
+To deal with limited target data, we compute the average pairwise distance between each data in source and target instead of their distributions.
+The final loss function:
+![Alt text](wiki_imgs/L_CCSA.PNG?raw=true "Loss Function")
+where
+![Alt text](wiki_imgs/L_SA.PNG?raw=true "Loss Function LSA")
+and 
+![Alt text](wiki_imgs/L_S.PNG?raw=true "Loss Function LS")
+task loss is the regular loss used on image classification task

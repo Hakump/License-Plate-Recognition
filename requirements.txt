@@ -1,0 +1,9 @@
+adapt==0.4.0
+cnstd==1.1.1
+keras==2.8.0
+numpy==1.20.3
+opencv_python_headless==4.5.4.58
+Pillow==9.1.0
+scikit_learn==1.0.2
+streamlit==1.8.1
+tensorflow==2.8.0

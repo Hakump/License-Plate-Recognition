@@ -1,3 +1,3 @@
-# CS766_Proj
+# License Plate Recognition
 
 Our `CS766: Computer Vision` course project.

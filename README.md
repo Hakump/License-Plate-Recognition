@@ -1,5 +1,5 @@
 # License Plate Recognition
 
-Our `CS766: Computer Vision` course project. 
+This is Our `CS766: Computer Vision` course project. 
 
-See more detailed introduction https://github.com/Hakump/License-Plate-Recognition/wiki
+See more details here: [Link](https://github.com/Hakump/License-Plate-Recognition/wiki)
